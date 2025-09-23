@@ -100,7 +100,7 @@ export EXCEL__CREATE_BACKUP="true"
 ```
 receipt-parser/
 ├── config.py              # Configuration management
-├── models.py               # Data models and validation
+├── models.py              # Data models and validation
 ├── ocr_parser.py          # OCR processing module
 ├── receipt_cleaner.py     # Text parsing and cleaning
 ├── excel_writer.py        # Excel export functionality
@@ -234,7 +234,7 @@ export EXCEL__CREATE_BACKUP="true"
 ```
 receipt-parser/
 ├── config.py              # 구성 관리
-├── models.py               # 데이터 모델 및 검증
+├── models.py              # 데이터 모델 및 검증
 ├── ocr_parser.py          # OCR 처리 모듈
 ├── receipt_cleaner.py     # 텍스트 파싱 및 정리
 ├── excel_writer.py        # Excel 내보내기 기능
