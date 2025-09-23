@@ -19,7 +19,7 @@ def extract_date_from_text(text):
     return datetime.date.today()
 
 # OCR 돌리기
-text = extract_text_from_image("screenshots/IMG_5336.png")
+text = extract_text_from_image("IMG_0142.jpeg")
 receipt_date = extract_date_from_text(text)
 
 # 항목 + 금액 파싱

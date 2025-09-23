@@ -92,7 +92,7 @@ class WatcherConfig(BaseModel):
 class LoggingConfig(BaseModel):
     """Logging configuration."""
 
-    level: str = Field(default="INFO", regex=r"^(DEBUG|INFO|WARNING|ERROR|CRITICAL)$")
+    level: str = Field(default="INFO", pattern=r"^(DEBUG|INFO|WARNING|ERROR|CRITICAL)$")
     format: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
     log_file: Optional[Path] = None
     max_file_size: int = Field(default=10 * 1024 * 1024)  # 10MB
